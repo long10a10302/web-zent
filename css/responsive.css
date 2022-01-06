@@ -1,0 +1,139 @@
+/*responsive cho màn hình Kích thước tablet: min-width: 768px and max-width: 991px*/
+
+@media screen and (max-width: 1024px) {
+    .menu li {
+        display: none;
+    }
+    header {
+        width: 95%;
+    }
+    .menu i {
+        display: block;
+        font-size: 33px;
+    }
+    .banner {
+        width: 99%;
+    }
+    .text-post p {
+        font-size: 20px;
+    }
+    .container {
+        display: block;
+        padding-left: 5px;
+    }
+    .left__container,
+    .right__container {
+        width: 99%;
+    }
+    .banner_container_bottom {
+        padding-left: 47px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+    }
+    .message-image span {
+        position: relative;
+        top: 0px;
+        right: 5px;
+    }
+    /* .banner-top-center {
+        margin: 40px 40px 20px 10px;
+    } */
+}
+
+
+/*responsive cho màn hình Kích thước mobile: min-width: 320px and max-width: 767px*/
+
+@media screen and (max-width: 767px) {
+    .menu li {
+        display: none;
+    }
+    .menu .icon {
+        display: block;
+        font-size: 33px;
+    }
+    .text_banner h2 {
+        font-size: 30px;
+    }
+    .container {
+        display: block;
+        width: 100%;
+        padding-left: 5px;
+    }
+    .left__container {
+        width: 100%;
+        padding: 0;
+    }
+    .banner_bottom {
+        display: block;
+    }
+    .banner_bottom_right {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    .right__container {
+        width: 100%;
+    }
+    .img_container {
+        width: 50%;
+    }
+    .tag-post,
+    .categoris-post,
+    .popular-posts {
+        padding-left: 1px;
+    }
+    .text-post p {
+        font-size: 15px;
+        ;
+    }
+    .banner_container_bottom {
+        display: block;
+        padding-left: 1px;
+    }
+    .banner-top {
+        height: 200px;
+    }
+    .banner-bottom {
+        display: block;
+    }
+    .banner-bottom-right {
+        margin-left: 0px;
+    }
+    .banner-top-center {
+        height: 200px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .input_sub {
+        border: 1px solid #ccc;
+        height: 37px;
+        margin-right: -4px;
+    }
+    .submit {
+        height: 37px;
+        background-color: #1E90FF;
+        color: white;
+        border: none;
+        width: auto;
+    }
+    .footer_text_left {
+        padding-top: 69px;
+        padding-left: 11%;
+        color: #555555;
+        width: 100%;
+    }
+    .footer_top {
+        display: block;
+    }
+    .text_center_footer {
+        margin-top: 69px;
+        display: flex;
+        justify-content: space-around;
+        color: #555555;
+    }
+    .message-image span {
+        position: relative;
+        top: 0px;
+        right: 5px;
+    }
+}
