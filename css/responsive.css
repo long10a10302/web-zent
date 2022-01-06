@@ -7,7 +7,7 @@
     header {
         width: 95%;
     }
-    .menu i {
+    .menu .icon {
         display: block;
         font-size: 33px;
     }
@@ -35,6 +35,10 @@
         position: relative;
         top: 0px;
         right: 5px;
+    }
+    .comments-text {
+        margin-left: 15px;
+        font-size: 10px;
     }
     /* .banner-top-center {
         margin: 40px 40px 20px 10px;

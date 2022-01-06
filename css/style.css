@@ -20,6 +20,10 @@ img {
     width: 100%;
 }
 
+body {
+    font-size: 15px;
+}
+
 
 /* Header  */
 
@@ -172,6 +176,7 @@ header .menu a {
 
 .comments-text {
     margin-left: 15px;
+    font-size: 15px;
 }
 
 .comments-text span {
@@ -226,34 +231,36 @@ header .menu a {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    font-weight: 100;
 }
 
 .img_post {
-    width: 90%;
+    width: 40%;
+    margin-right: 10px;
 }
 
 .text-post p {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 800;
     margin-bottom: 10px;
     margin-top: 0px;
 }
 
 .text-post span {
-    opacity: 0.4
+    opacity: 0.7;
 }
 
 hr {
     margin-top: 10px;
-    opacity: 0.4
+    opacity: 0.7;
 }
 
 .categoris-post .container-post>div>p {
-    opacity: 0.4
+    opacity: 0.7;
 }
 
 .categoris-post .container-post>div>a {
-    color: #88bafe;
+    color: #2d7dec;
 }
 
 .container-tag-post {
@@ -262,12 +269,17 @@ hr {
 
 .container-tag-post span {
     background-color: grey;
-    opacity: 0.4;
+    opacity: 0.7;
+    ;
 }
 
 form {
     background-color: #f8f9fa;
     margin-top: 30px;
+}
+
+.form_label {
+    padding-top: 15px;
 }
 
 .form_label,
@@ -332,8 +344,9 @@ form {
 .message-image {
     color: white;
     position: relative;
-    left: 10px;
+    left: 7px;
     top: 130px;
+    width: 70%;
 }
 
 .message-image button {
